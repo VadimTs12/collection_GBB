@@ -45,6 +45,7 @@ const MainMindMap = ({text}) => {
     const [showModal, setShowModal] = useState(false)
     return (
         <div className={styles.imageWrapper + ''}>
+            <h3 className="px-5 font-800 top-0 font-sans text-4xl lg:text-6xl uppercase pb-4  font-black tracking-tight">{lang.mindmap.title}</h3>
             <div className=" w-full h-full">
                 <Swiper
                     tag="section"

@@ -26,7 +26,7 @@ const MindMap = () => {
             <div className="absolute w-screen lg:h-screen top-0 bottom-0 bg-white/10 dark:bg-neutral-900/20"></div>
             <MainComponent title={'MindMap'} textColor={'text-white'} headerStyle={headerStyle}>
                 <div className="lg:px-8 pt-24   md:px-5 relative h-full">
-                    <h3 className="px-5 font-800 top-0 font-sans text-4xl lg:text-6xl uppercase pb-4  font-black tracking-tight">{lang.mindmap.title}</h3>
+
 
                     <MainMindMap/>
                 </div>
