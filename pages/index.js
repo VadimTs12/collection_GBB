@@ -11,11 +11,7 @@ export default function Home() {
   return (
       <div className={'wrapper_home relative'} id={'wrapper_home'}>
 
-<<<<<<< HEAD
           <Image src={background}
-=======
-          <Image src={'/../public/image/background-home.png'}
->>>>>>> e4c45ac983623f3af309069c74d912a8702ff496
                  alt="Picture of the author"
                  layout='fill'
                  className={'image'}
