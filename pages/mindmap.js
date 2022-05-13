@@ -6,7 +6,7 @@ import {useRouter} from "next/router";
 import en from "../src/locales/en";
 import ru from "../src/locales/ru";
 import cn from "../src/locales/cn";
-
+import bgMindmap from '/public/image/Background-animate-house.png'
 
 const MindMap = () => {
     const headerStyle = ['bg-transparent']
@@ -16,7 +16,7 @@ const MindMap = () => {
         locale === "ru" ? ru : cn
     return (
         <div className={'wrapper_mind-map relative'} id={'wrapper_mind-map'}>
-            <Image src={'/../public/image/Background-animate-house.png'}
+            <Image src={bgMindmap}
                    alt="Picture of the author"
                    layout='fill'
                    className={'image'}

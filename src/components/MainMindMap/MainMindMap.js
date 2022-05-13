@@ -12,7 +12,9 @@ import {useRouter} from "next/router";
 import en from "../../locales/en";
 import ru from "../../locales/ru";
 import cn from "../../locales/cn";
-
+import news from '/public/image/News.png'
+import textile from '/public/image/Textile.png'
+import itCo from '/public/image/ITco.png'
 
 const MainMindMap = ({text}) => {
     const router = useRouter();
@@ -22,17 +24,17 @@ const MainMindMap = ({text}) => {
     useEffect(() => {
         setSwiperSlider([
             {
-                src: '/../public/image/News.png',
+                src: news,
                 text: lang.mindmap.text.text1,
 
             },
             {
-                src: '/../public/image/Textile.png',
+                src: textile,
                 text: lang.mindmap.text.text2,
 
             },
             {
-                src: '/../public/image/ITco.png',
+                src: itCo,
                 text: lang.mindmap.text.text3,
 
             },
@@ -58,8 +60,8 @@ const MainMindMap = ({text}) => {
                             slidesPerView: 3,
                         },
                     }}>
-                    {swiperSlider.map(swiperSliderItem =>
-                        <SwiperSlide key={swiperSliderItem.src}>
+                    {swiperSlider.map((swiperSliderItem, index) =>
+                        <SwiperSlide key={index}>
                             <ItemMainMindMap
                                 swiperSliderItem={swiperSliderItem}
                                 setShowModal={setShowModal}

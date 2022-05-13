@@ -3,6 +3,8 @@ import Image from "next/image";
 import React, {useState} from "react";
 import styles from '/src/styles/Home.module.scss'
 import background from '/public/image/background-home.png'
+import logo from '/public/image/Logotype-Ghetto-Baby-Boy.png'
+import gbb from '/public/image/Gif-black-dude.gif'
 
 export default function Home() {
     const headerStyle = ['bg-transparent']
@@ -23,7 +25,7 @@ export default function Home() {
               <div className={ " lg:px-8 flex flex-col md:flex-row h-screen items-center pt-24   md:px-5 relative"}>
                   <div className=" h-full w-full lg:w-1/2 flex">
                       <div className={styles.logo + "  relative m-auto "}>
-                          <Image src={'/../public/image/Logotype-Ghetto-Baby-Boy.png'}
+                          <Image src={logo}
                                  alt="img"
                                  layout='fill'
                                  className={'image'}
@@ -34,7 +36,7 @@ export default function Home() {
                   </div>
                   <div className="h-full w-full lg:w-1/2 flex items-end relative">
                   <div className={styles.babyImage + "  relative mx-auto  "}>
-                      <Image src={'/../public/image/Gif-black-dude.gif'}
+                      <Image src={gbb}
                              alt="img"
                              layout='fill'
                              className={'image'}
