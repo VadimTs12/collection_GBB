@@ -10,7 +10,7 @@ export default function Home() {
   return (
       <div className={'wrapper_home relative'} id={'wrapper_home'}>
 
-          <Image src={'/../public/image/background-home.png'}
+          <Image src={'https://raw.githubusercontent.com/VadimTs12/collection_gbb/master/public/image/background-home.png'}
                  alt="Picture of the author"
                  layout='fill'
                  className={'image'}
