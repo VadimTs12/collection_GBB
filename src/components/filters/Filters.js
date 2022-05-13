@@ -44,7 +44,7 @@ const Filters = ({filtersGallery}) => {
                     </button>
                 </div>
              <InputSearch/>
-                <div className="filter-body  p-5 ">
+                <div className="filter-body  p-5 bg-white dark:bg-neutral-900">
                     {filtersGallery.map(itemFilter =>
                         <ItemFilter key={itemFilter.id} itemFilter={itemFilter}/>
                     )}

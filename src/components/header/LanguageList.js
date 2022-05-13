@@ -20,7 +20,7 @@ const LanguageList = ({changeLanguage, languageVisible, setLanguageVisible}) => 
 
 
     return (
-        <div className="px-1 py-1 "
+        <div className="px-1 py-1 flex flex-col items-center"
              role="none">
             {languages.map(languageItem =>
                 <button
@@ -29,7 +29,7 @@ const LanguageList = ({changeLanguage, languageVisible, setLanguageVisible}) => 
                         changeLanguage()
                     }}
                     key={languageItem.locale}
-                    className="text-gray-900 group flex rounded-md items-center w-full px-2 py-2  tracking-wider pt-0.5 first::pt-0 duration-300 uppercase whitespace-nowrap text-2xs font-500">
+                    className="text-gray-900 group flex justify-center rounded-md items-center w-full px-2 py-2  tracking-wider pt-0.5 first::pt-0 duration-300 uppercase whitespace-nowrap text-2xs font-500 text-xl">
                     {languageItem.lang}
                 </button>
             )}

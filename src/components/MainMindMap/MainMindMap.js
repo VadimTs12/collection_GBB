@@ -44,7 +44,7 @@ const MainMindMap = ({text}) => {
     const [modalWindow, setModalWindow] = useState(null)
     const [showModal, setShowModal] = useState(false)
     return (
-        <div className={styles.imageWrapper}>
+        <div className={styles.imageWrapper + ''}>
             <div className=" w-full h-full">
                 <Swiper
                     tag="section"

@@ -22,9 +22,9 @@ export default function Gallery({collection, filters}) {
     return (
         <MainComponent keywords={'gallery'} title={'GALLERY'} headerStyle={headerStyle} setLang={setLang}>
             {!!query.id && <ModalItem id={query.id} collection={collection}/>}
-            <div className=" duration-300 relative z-10 min-h-screen">
-                <div className="max-w-11xl mx-auto lg:px-8 ">
-                    <div className="flex relative top-0 lg:top-auto ">
+            <div className="  relative z-10 bg-white dark:bg-neutral-900">
+                <div className="max-w-11xl mx-auto lg:px-8 bg-white dark:bg-neutral-900">
+                    <div className="flex relative top-0 lg:top-auto bg-white dark:bg-neutral-900">
                         <Filters filtersGallery={filtersGallery}/>
                         {collectionGallery
                             ? <Collection collectionGallery={collectionGallery} filtersGallery={filtersGallery}/>

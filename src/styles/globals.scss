@@ -548,7 +548,7 @@ header {
   color: black;
 }
 .swiper-pagination-bullet-active {
-  background: #ff6868 !important;
+  background: #618bfc !important;
 }
 
 .swiper-button-prev, .swiper-button-next  {
@@ -566,4 +566,8 @@ header {
 }
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
   left: 0!important;
+}
+.swiper-pagination-bullet {
+  width: 20px!important;
+  height: 20px!important;
 }
