@@ -2,6 +2,7 @@ import MainComponent from "../src/components/MainComponent";
 import Image from "next/image";
 import React, {useState} from "react";
 import styles from '/src/styles/Home.module.scss'
+import background from '/public/image/background-home.png'
 
 export default function Home() {
     const headerStyle = ['bg-transparent']
@@ -10,7 +11,7 @@ export default function Home() {
   return (
       <div className={'wrapper_home relative'} id={'wrapper_home'}>
 
-          <Image src={'https://raw.githubusercontent.com/VadimTs12/collection_gbb/master/public/image/background-home.png'}
+          <Image src={background}
                  alt="Picture of the author"
                  layout='fill'
                  className={'image'}
