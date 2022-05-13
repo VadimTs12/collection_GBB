@@ -3,9 +3,7 @@
 @tailwind utilities;
 @import 'animate.css';
 
-.filter::-webkit-scrollbar {
-  width: 0;
-}
+
 
 @font-face {
   font-family: Fifaks;
@@ -14,18 +12,16 @@
   font-weight: 400;
   font-style: normal;
 }
-//html,
-//body {
-//  height: 100%;
-//  min-width: 320px;
-//}
-//#__next {
-//  height: 100%;
-//}
+html,
+body {
+  height: 100%;
+}
+#__next {
+  height: 100%;
+}
 body {
   font-family: Fifaks;
   overflow-x: hidden;
-  //height: 100vh;
   // Скролл заблокирован
   .lock & {
     overflow: hidden;
@@ -531,7 +527,9 @@ header {
   width: 25px;
   height: 25px;
 }
-
+.filter::-webkit-scrollbar {
+  width: 0;
+}
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
   bottom: auto!important;

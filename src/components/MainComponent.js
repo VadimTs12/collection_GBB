@@ -4,7 +4,7 @@ import Header from "./header/Header";
 
 const MainComponent = ({children, keywords, title, headerStyle}) => {
     return (
-        <div>
+        <div className={'h-full'}>
             <Head>
                 <meta keywords={"nft, ghetto, baby, " + keywords}></meta>
                 <meta httpEquiv="ScreenOrientation" content="autoRotate:disabled"/>
@@ -16,7 +16,7 @@ const MainComponent = ({children, keywords, title, headerStyle}) => {
                 <title>{title}</title>
             </Head>
             <Header headerStyle={headerStyle}/>
-            <main className={'dark:bg-neutral-900 bg-white'}>
+            <main className={'h-full dark:bg-neutral-900 bg-white'}>
                 {children}
             </main>
         </div>
