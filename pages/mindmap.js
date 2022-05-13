@@ -21,6 +21,7 @@ const MindMap = () => {
                    layout='fill'
                    className={'image'}
                    objectFit='cover'
+                   priority
             />
             <div className="absolute w-screen lg:h-screen top-0 bottom-0 bg-white/10 dark:bg-neutral-900/20"></div>
             <MainComponent title={'MindMap'} textColor={'text-white'} headerStyle={headerStyle}>

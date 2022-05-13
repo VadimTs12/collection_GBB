@@ -26,6 +26,11 @@ const GuyBack = () => {
                 position: relative !important;
                 object-fit: cover; // Optional
               }
+              @media  (max-width:1024px) {
+               .guy-back-content {
+               height: 33vh;
+               }
+              }
 
             `}</style>
         </div>

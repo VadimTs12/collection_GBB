@@ -16,7 +16,9 @@ const ItemMainMindMap = ({swiperSliderItem, setShowModal, setModalWindow}) => {
                    alt="img"
                    layout='fill'
                    className={'image'}
-                   objectFit='contain'/>
+                   objectFit='contain'
+                   priority
+            />
         </div>
     );
 };
