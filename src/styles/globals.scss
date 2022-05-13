@@ -531,10 +531,7 @@ header {
   width: 0;
 }
 
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-  bottom: auto!important;
-  top: 0;
-}
+
 
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
   content: '>'!important;
@@ -547,8 +544,13 @@ header {
   font-family: Fifaks!important;
   color: black;
 }
+.swiper-pagination-bullet {
+  background: #7c9aec !important;
+  border-radius: 0!important;
+}
 .swiper-pagination-bullet-active {
   background: #618bfc !important;
+  border-radius: 0!important;
 }
 
 .swiper-button-prev, .swiper-button-next  {
