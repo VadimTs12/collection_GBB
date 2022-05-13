@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import gbb from '/../public/image/Gif-black-back.gif'
+import gbb from '/public/image/Gif-black-back.gif'
 
 const GuyBack = () => {
     return (
