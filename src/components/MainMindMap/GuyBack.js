@@ -1,11 +1,12 @@
 import React from 'react';
 import Image from "next/image";
+import gbb from '/../public/image/Gif-black-back.gif'
 
 const GuyBack = () => {
     return (
         <div className="guy-back-content">
             <Image
-                src={'/../public/image/Gif-black-back.gif'}
+                src={gbb}
                 layout='fill'
                 objectFit='contain'
                 className='guy-back'
