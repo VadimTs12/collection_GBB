@@ -11,7 +11,4 @@ module.exports = {
     defaultLocale: 'en',
     localeDetection: false,
   },
-  // images: {
-  //   domains: ['collection-gbb.vercel.app'],
-  // },
 };

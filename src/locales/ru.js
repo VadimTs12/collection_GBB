@@ -4,7 +4,7 @@ export default {
         home: 'Главная',
         gallery: 'Галлерея',
         about: 'О нас',
-        mindmap: 'Миндмап'
+        mindmap: 'МиндМап'
     },
     home: {},
     gallery: {
